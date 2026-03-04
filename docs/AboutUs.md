@@ -48,12 +48,12 @@ You can reach us at the email `seer[at]comp.nus.edu.sg`
 * Role: Developer
 * Responsibilities: Dev Ops + Threading
 
-### James Doe
+### Jack Tan
 
-<img src="images/johndoe.png" width="200px">
+<img src="images/calijacked.png" width="200px">
 
-[[github](http://github.com/johndoe)]
-[[portfolio](team/johndoe.md)]
+[[github](http://github.com/calijacked)]
+[[portfolio](team/jack.md)]
 
 * Role: Developer
-* Responsibilities: UI
+* Responsibilities: Documentation, Git Expert, Integration
