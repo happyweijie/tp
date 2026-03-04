@@ -9,44 +9,40 @@ You can reach us at the email `seer[at]comp.nus.edu.sg`
 
 ## Project team
 
-### John Doe
+### Ng See Pui
 
-<img src="images/johndoe.png" width="200px">
+<img src="images/seepui.png" width="200px">
 
-[[homepage](http://www.comp.nus.edu.sg/~damithch)]
-[[github](https://github.com/johndoe)]
-[[portfolio](team/johndoe.md)]
-
-* Role: Project Advisor
-
-### Jane Doe
-
-<img src="images/johndoe.png" width="200px">
-
-[[github](http://github.com/johndoe)]
-[[portfolio](team/johndoe.md)]
+[[github](https://github.com/SeePui)]
 
 * Role: Team Lead
-* Responsibilities: UI
+* Responsibilities: Scheduling & Tracking
 
-### Johnny Doe
+### Chew Wei Jie
+<img src="images/happyweijie.png" width="200px">
 
-<img src="images/johndoe.png" width="200px">
-
-[[github](http://github.com/johndoe)] [[portfolio](team/johndoe.md)]
-
-* Role: Developer
-* Responsibilities: Data
-
-### Jean Doe
-
-<img src="images/johndoe.png" width="200px">
-
-[[github](http://github.com/johndoe)]
-[[portfolio](team/johndoe.md)]
+[[github](https://github.com/happyweijie)]
 
 * Role: Developer
-* Responsibilities: Dev Ops + Threading
+* Responsibilities: Code Quality
+
+### Chua Chloe
+
+<img src="images/sqonky1.png" width="200px">
+
+[[github](http://github.com/sqonky1)]
+
+* Role: Developer
+* Responsibilities: UI, Deliverables, Deadlines
+
+### Zhang Zhuoyu
+
+<img src="images/wumingxin238.png" width="200px">
+
+[[github](https://github.com/wumingxin238)]
+
+* Role: Developer, Model IC
+* Responsibilities: In charge of the Model Folder
 
 ### Jack Tan
 
@@ -57,3 +53,12 @@ You can reach us at the email `seer[at]comp.nus.edu.sg`
 
 * Role: Developer
 * Responsibilities: Documentation, Git Expert, Integration
+
+### Nguyen Thai Binh
+
+<img src="images/nutabi.png" width="200px">
+
+[[github](https://github.com/nutabi)]
+
+* Role: Developer
+* Responsibilities: Testing IC, Storage
