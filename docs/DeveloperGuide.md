@@ -318,9 +318,9 @@ Priorities: High (must have) - `* * *`, Medium (nice to have) - `* *`, Low (unli
 **Preconditions: Application is running**
 
 **MSS:**
-1. User types a search query containing either a name or email
-2. User submits search
-3. CampusBridge shows the list of contacts matching the search query (email or name)
+1. User types a search query containing either a name or email.
+2. User submits search.
+3. CampusBridge shows the list of contacts matching the search query (email or name).
 
 Use case ends.
 
