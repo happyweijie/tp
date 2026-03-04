@@ -27,3 +27,7 @@ Known issues
 2. If you minimize the Help Window and then run the help command (or use the Help menu, or the keyboard shortcut F1) again, the original Help Window will remain minimized, and no new Help Window will appear. The remedy is to manually restore the minimized Help Window.
 
 * For the detailed documentation of this project, see the **[Address Book Product Website](https://se-education.org/addressbook-level3)**.
+
+**Acknowledgements**
+
+* This project is based on the AddressBook-Level3 project created by the [SE-EDU initiative](https://se-education.org).
