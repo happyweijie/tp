@@ -263,6 +263,7 @@ _{Explain here how the data archiving feature will be implemented}_
 **Target user profile**:
 NUS undergraduate students who 
 * Need to organize contact information of their Professors, Teaching Assistants and Groupmates. 
+* Values efficiency and prefers tools that save time and reduce friction.
 * Prefer using CLI over GUI.
 
 **Value proposition**:
