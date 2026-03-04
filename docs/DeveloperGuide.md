@@ -261,15 +261,15 @@ _{Explain here how the data archiving feature will be implemented}_
 ### Product scope
 
 **Target user profile**:
+NUS undergraduate students who 
+* Need to organize contact information of their Professors, Teaching Assistants and Groupmates. 
+* Values efficiency and prefers tools that save time and reduce friction.
+* Prefer using CLI over GUI.
 
-* has a need to manage a significant number of contacts
-* prefer desktop apps over other types
-* can type fast
-* prefers typing to mouse interactions
-* is reasonably comfortable using CLI apps
+**Value proposition**:
+CampusBridge helps NUS undergraduate students to organize and access contact information for their academic peers across different modules and faculties. 
 
-**Value proposition**: manage contacts faster than a typical mouse/GUI driven app
-
+It does so by providing a centralized, easy-to-use system to save, search, and manage academic contacts efficiently.
 
 ### User stories
 
