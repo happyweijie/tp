@@ -288,32 +288,41 @@ Priorities: High (must have) - `* * *`, Medium (nice to have) - `* *`, Low (unli
 
 ### Use cases
 
-(For all use cases below, the **System** is the `AddressBook` and the **Actor** is the `user`, unless specified otherwise)
+(For all use cases below, the **System** is the `CampusBridge` and the **Actor** is the `user`, unless specified otherwise)
 
-**Use case: Delete a person**
+**Use Case: UC06 - Add a tag to an existing contact**
 
-**MSS**
+**Preconditions: Application is running**
 
-1.  User requests to list persons
-2.  AddressBook shows a list of persons
-3.  User requests to delete a specific person in the list
-4.  AddressBook deletes the person
+**MSS:**
+1. User enters the command tag <contact email / contact index> <tag name>.
+2. CampusBridge validates the command format.
+3. CampusBridge checks that the contact exists.
+4. CampusBridge adds the tag to the specified contact.
+5. Tag is saved in storage
+6. CampusBridge displays a success message showing the updated contact.
+
+Use case ends.
+
+**Extensions:**
+* 2a. Invalid Command Format
+  * 2a1. CampusBridge displays an error message showing the correct command format.
+
+    Use case resumes at step 1.
+  
+
+* 3a. Contact Does Not Exist
+  * 3a1. CampusBridge informs the user that the contact cannot be found.
 
     Use case ends.
 
-**Extensions**
 
-* 2a. The list is empty.
+* 4a. Tag Already Exists for Contact
+  * 4a1. CampusBridge informs the user that the contact already has this tag.
 
-  Use case ends.
+    Use case resumes at step 1.
 
-* 3a. The given index is invalid.
 
-    * 3a1. AddressBook shows an error message.
-
-      Use case resumes at step 2.
-
-*{More to be added}*
 
 ### Non-Functional Requirements
 
