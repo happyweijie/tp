@@ -323,6 +323,12 @@ Use case ends.
     Use case resumes at step 1.
 
 
+* 5a. Storage file cannot be written or accessed.
+  * 5a1. CampusBridge shows a failure message indicating that the list could not be saved.
+    
+    Use case ends.
+
+
 
 ### Non-Functional Requirements
 
