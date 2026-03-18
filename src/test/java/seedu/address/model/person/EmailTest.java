@@ -68,6 +68,30 @@ public class EmailTest {
     }
 
     @Test
+    public void containsIgnoreCase_substring_returnsTrue() {
+        Email email = new Email("valid@gmail.com");
+
+        // Some valid substrings of email
+        assertTrue(email.containsIgnoreCase("gmail"));
+        assertTrue(email.containsIgnoreCase("GMAIL"));
+
+        assertTrue(email.containsIgnoreCase("val"));
+        assertTrue(email.containsIgnoreCase("VAL"));
+
+        assertTrue(email.containsIgnoreCase("@"));
+    }
+
+    @Test
+    public void containsIgnoreCase_nonSubstring_returnsFalse() {
+        Email email = new Email("valid@gmail.com");
+
+        // Some words which are not substrings of email
+        assertFalse(email.containsIgnoreCase("invalid"));
+        assertFalse(email.containsIgnoreCase("yahoo"));
+        assertFalse(email.containsIgnoreCase("nus.edu"));
+    }
+
+    @Test
     public void equals() {
         Email email = new Email("valid@email");
 
