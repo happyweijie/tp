@@ -152,8 +152,8 @@ public class StringUtil {
      * The method returns true if the Levenshtein/edit distance between the query and word
      * is less than or equal to the specified threshold.</p>
      *
-     * <p>This is useful for typo-tolerant searches. For example, with a threshold of 2,
-     * "john" would match "joan" or "jhon".</p>
+     * <p>This is useful for typo-tolerant searches. For example, with a threshold of 1,
+     * "john" would match "joan" or "jon".</p>
      *
      * <p>The matching is case-insensitive.</p>
      *
